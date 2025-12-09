@@ -30,7 +30,7 @@ namespace ExamenIntegradorFinal
 
         #region Propiedades
 
-        protected abstract string CategoriaEnergetica 
+        public abstract string CategoriaEnergetica 
         {
             get;
         }
