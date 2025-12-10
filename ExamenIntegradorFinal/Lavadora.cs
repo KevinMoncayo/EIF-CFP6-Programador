@@ -49,18 +49,23 @@ namespace ExamenIntegradorFinal
         {
             get
             {
+                string mensaje;
                 switch (this.tipo)
                 {
                     case TipoLavadora.Industrial:
-                        return "Industrial";
+                        mensaje = "Industrial";
                         break;
+                        
                     case TipoLavadora.SemiIndustrial:
-                        return "Comercial";
+                        mensaje = "Comercial";
                         break;
+
                     default:
-                        return "Hogar";
+                        mensaje = "Hogar";
                         break;
+
                 }
+                return mensaje;
             }
             
         }
